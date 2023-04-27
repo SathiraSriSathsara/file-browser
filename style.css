@@ -1,0 +1,180 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	color: #444;
+	margin-bottom: 30px;
+}
+
+.file-browser {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #f1f1f1;
+	color: #444;
+}
+
+tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+tr:hover {
+	background-color: #f1f1f1;
+}
+
+form {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+form input[type="text"] {
+	padding: 10px;
+	margin-right: 10px;
+	border: none;
+	border-radius: 3px;
+	background-color: #f9f9f9;
+	color: #444;
+}
+
+form button {
+    margin-right: 10px;	
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form button:hover {
+    background-color: #0f62fe;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="file"] {
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #f2f2f2;
+	border-radius: 3px;
+	border: none;
+	color: #444;
+}
+
+button[type="submit"] {
+	background-color: #1a73e8;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+	background-color: #0f62fe;
+}
+
+.breadcrumb {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.breadcrumb a {
+	color: #1a73e8;
+	text-decoration: none;
+}
+
+.breadcrumb a:hover {
+	text-decoration: underline;
+}
+
+.breadcrumb span {
+	color: #555;
+}
+
+.file-action {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.file-action a {
+	color: #1a73e8;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.file-action a:hover {
+	text-decoration: underline;
+}
+
+.file-action form {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.file-action button {
+	padding: 5px;
+	background-color: transparent;
+	color: #1a73e8;
+	border: none;
+	cursor: pointer;
+	transition: color 0.3s ease;
+}
+
+.file-action button:hover {
+	color: #0f62fe;
+}
+
+.file-type {
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 3px;
+	margin-right: 10px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.file-type.pdf {
+	background-color: #d
+}
