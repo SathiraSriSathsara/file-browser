@@ -3,7 +3,10 @@
 This is a simple file browser written in PHP that allows you to navigate through your files and directories, create new folders, upload files, rename files/folders, and delete files/folders. The file browser has a basic user interface that displays the current directory path and a table of files and folders with their types and sizes. You can easily customize the file browser by changing the CSS styling or adding new features to the PHP code.
 
 ## Installation
- Pleace read <a href="https://github.com/SathiraSriSathsara/file-browser/wiki">Wiki page</a> for Installation details.
+
+To use this file browser, you need to have PHP installed on your server. You can download the PHP files and copy them to your server's directory. Then, you can access the file browser by opening the `index.php` file in your web browser.
+
+Pleace read <a href="https://github.com/SathiraSriSathsara/file-browser/wiki">Wiki page</a> for more details.
 
 ## Usage
 
