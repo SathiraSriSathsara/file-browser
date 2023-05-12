@@ -24,7 +24,6 @@ This project is licensed under the MIT License. You are free to use, copy, modif
 This file browser was developed by Sathira Sri Sathsara. If you have any questions or comments, you can contact me at sathira@enforcers.lk.
 
 <div align="center">
-	<img src="https://github.com/SathiraSriSathsara/SathiraSriSathsara/blob/main/dp-wp-yt-round.png" width="40" height="50">
+	<img src="https://github.com/SathiraSriSathsara/SathiraSriSathsara/blob/main/icon.png" width="40">
 	<h4>Sathira Sri Sathsara @ 2023</h4>
 </div>	
-
